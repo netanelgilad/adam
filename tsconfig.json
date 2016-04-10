@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "jsx": "react"
+  },
+  "filesGlob": [
+    "node_modules/angular2/typings/browser.d.ts",
+    "node_modules/angular2/typings/es6-promise/es6-promise.d.ts",
+    "node_modules/angular2/typings/es6-collections/es6-collections.d.ts",
+    "src/server/**/*.ts"
+  ]
+}
